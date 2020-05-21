@@ -1,0 +1,58 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.4",
+    "@mdx-js/react": "^1.6.4",
+    "acorn": "^6.4.1",
+    "babel-plugin-styled-components": "^1.10.7",
+    "bootstrap": "^4.5.0",
+    "gatsby": "^2.21.31",
+    "gatsby-background-image": "^1.1.1",
+    "gatsby-image": "^2.3.4",
+    "gatsby-plugin-mdx": "^1.2.11",
+    "gatsby-plugin-playground": "^1.0.6",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sass": "^2.2.1",
+    "gatsby-plugin-sharp": "^2.6.8",
+    "gatsby-plugin-sitemap": "^2.4.2",
+    "gatsby-plugin-styled-components": "^3.2.1",
+    "gatsby-plugin-transition-link": "^1.18.0",
+    "gatsby-remark-images": "^3.3.7",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.4.6",
+    "gsap": "^3.2.6",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0",
+    "react-icons": "^3.9.0",
+    "react-refresh": "^0.8.2",
+    "styled-components": "^5.0.1",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
