@@ -13,9 +13,6 @@ const postTemplate = ({ data }) => {
   return (
     <Layout>
       <section className={styles.template}>
-        <Link to="/" className={styles.link}>
-          back to all posts
-        </Link>
         <div className={styles.info}>
           <h1>{title}</h1>
           <h4>
